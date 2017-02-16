@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--全屏activity-->
+    <style name="FullscreenActivity" parent="NoActionBar">
+        <item name="colorAccent">@color/login_txt</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TextAppearance.Hint" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/login_txt</item>
+    </style>
+    <!--白色状态栏-->
+    <style name="WhiteBar" parent="NoActionBar">
+        <item name="colorPrimaryDark">#ffffffff</item>
+        <item name="colorAccent">@color/color99</item>
+    </style>
+    <!--StartActivity-->
+    <style name="StartActivity" parent="NoActionBar">
+        <item name="colorAccent">@color/login_txt</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/color7f</item>
+    </style>
+</resources>
